@@ -1,12 +1,13 @@
 {
 	"info": {
-		"_postman_id": "8985b08b-e005-466b-a7c2-6471f156eba4",
-		"name": "PetstoreAPISample",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"_postman_id": "b5acf42d-d697-481e-a7b5-cfcc55551335",
+		"name": "PetstoreAPISampleV1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12874523"
 	},
 	"item": [
 		{
-			"name": "Create Pet",
+			"name": "Create Golden Retriever",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -38,7 +39,7 @@
 			"response": []
 		},
 		{
-			"name": "Get Pet",
+			"name": "Get Golden Retriever",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -74,7 +75,7 @@
 			"response": []
 		},
 		{
-			"name": "Delete Pet",
+			"name": "Delete Golden Retriever",
 			"request": {
 				"method": "DELETE",
 				"header": [
